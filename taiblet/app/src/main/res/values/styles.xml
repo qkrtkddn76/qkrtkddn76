@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name="listTableTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">25dp</item>
+        <item name="android:gravity">center</item>
+
+        <item name="android:layout_weight">0.2</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:background">@drawable/edge</item>
+    </style>
+
+</resources>
